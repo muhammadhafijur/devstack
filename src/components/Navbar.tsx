@@ -57,19 +57,19 @@ export default function Navbar() {
           </a>
 
           <div className="hidden md:flex items-center gap-6 font-medium">
-            <a href="#" className="text-sm  active:text-[#D91B7E]">
+            <a href="#" className="text-sm  text-[#D91B7E]">
               Home
             </a>
-            <a href="#technologies" className="text-sm text-[#475569]">
+            <a href="#technologies" className="text-sm text-[#475569] hover:text-[#D91B7E]">
               Technologies
             </a>
-            <a href="#" className="text-sm text-[#475569]">
+            <a href="#" className="text-sm text-[#475569] hover:text-[#D91B7E]">
               Projects
             </a>
-            <a href="#" className="text-sm text-[#475569]">
+            <a href="#" className="text-sm text-[#475569] hover:text-[#D91B7E]">
               About
             </a>
-            <a href="#" className="text-sm text-[#475569]">
+            <a href="#" className="text-sm text-[#475569] hover:text-[#D91B7E]">
               Contact
             </a>
           </div>
@@ -77,7 +77,7 @@ export default function Navbar() {
           <div className="flex items-center justify-end gap-3 flex-1 md:flex-none">
             <a
               href="#"
-              className="text-[9px] md:text-sm font-medium text-gray-600"
+              className="text-[9px] md:text-sm font-medium text-gray-600 hover:text-[#D91B7E]"
             >
               Sign In
             </a>

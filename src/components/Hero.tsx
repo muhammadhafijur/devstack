@@ -20,17 +20,17 @@ export default function Hero() {
               project.
             </p>
 
-            <div className="mt-6 flex justify-center md:justify-start items-center gap-2">
+            <div className="mt-6 flex justify-center md:justify-start items-center gap-2 font-inter">
               <a
                 href="#technologies"
-                className="rounded-md bg-linear-to-r from-[#F97316] to-[#EC4899] px-4 py-2 text-[9px] sm:text-xs text-center font-medium text-white hover:bg-orange-600 w-full sm:w-auto"
+                className="rounded-md bg-linear-to-r from-[#F97316] to-[#EC4899] px-2 py-2.5 text-[9px] sm:text-sm text-center font-medium text-white hover:bg-orange-600 w-full sm:max-w-[168px]"
               >
                 Explore Technologies
               </a>
 
               <a
                 href="#about"
-                className="rounded-md border border-gray-200 px-4 py-2 text-[9px] sm:text-xs text-center font-medium text-gray-600 hover:bg-gray-50 w-full sm:w-auto"
+                className="rounded-md border border-gray-200 px-4 py-2.5 text-[9px] sm:text-sm text-center font-medium text-gray-600 hover:bg-gray-50 w-full sm:max-w-[168px]"
               >
                 Learn More
               </a>

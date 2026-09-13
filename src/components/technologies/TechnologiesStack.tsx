@@ -11,8 +11,7 @@ const TechnologiesStack = ({ technologies }: Props) => {
   const [selectedStack, setSelectedStack] = useState<Itechnology[]>([]);
 
   const handleAddStack = (tech: Itechnology) => {
-    //     console.log("clicked");
-    // toast.warning("Already added");
+
     const exists = selectedStack.some((t) => t.id === tech.id);
 
     if (exists) {
@@ -40,7 +39,7 @@ const TechnologiesStack = ({ technologies }: Props) => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-start gap-6">
+    <div className="mt-10 flex flex-col md:flex-row items-start gap-6">
       <div className="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {technologies.map((technology: Itechnology) => {
           return (

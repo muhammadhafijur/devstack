@@ -61,7 +61,7 @@ const TechnologiesCard = ({
       <button
         onClick={() => setSelectedStack(technology)}
         
-        className={`w-full text-sm font-medium py-2.5 rounded-lg transition ${
+        className={`w-full text-xs sm:text-sm font-medium py-2.5 rounded-lg transition ${
           isAdded
             ? "bg-gray-100 text-gray-500 cursor-not-allowed"
             : "bg-gray-900 text-white hover:bg-black"

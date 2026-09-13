@@ -14,7 +14,7 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className="mt-4 max-w-md text-sm leading-6 text-[#4B5563] text-center md:text-start">
+            <p className="mt-4 max-w-md text-sm md:text-lg font-jakarta leading-8 text-[#475569] text-center md:text-start">
               Explore frontend, backend, database, and tooling options, compare
               them side by side, and put together the stack that fits your next
               project.

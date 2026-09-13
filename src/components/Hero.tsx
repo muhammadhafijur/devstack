@@ -2,7 +2,7 @@ import hero from "../assets/hero.png";
 
 export default function Hero() {
   return (
-    <section className="font-inter">
+    <section className="font-inter bg-white">
       <div className="max-w-7xl mx-auto py-16 md:pt-24 md:pb-28 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="max-w-xl">

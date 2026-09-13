@@ -92,7 +92,7 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-sm text-gray-900 dark:text-white">
+              <p className="font-medium text-sm text-gray-900 ">
                 COMPANY
               </p>
 

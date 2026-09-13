@@ -1,6 +1,6 @@
 # DevStack - Technologies Stack Builder
 
-A simple reeac landing page website where users can build their own custom technology stack by selecting technologies. They can add/remove stack with a single click.
+A simple react landing page website where users can build their own custom technology stack by selecting technologies. They can add/remove stack with a single click.
 
 ---
 
@@ -62,7 +62,8 @@ this is the code below i used in my react app.
 
 ```
 
-## 7. How do you pass data from parent to child and child to parent?
+## 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
 data flows in a unidirectional way in react. We pass data from a parent component to a child component using props.
 
 and for sending data from child to parent first we pass function as a prop from parent to child then we call it under child component. that how we pass data from parent to child and child to parent.

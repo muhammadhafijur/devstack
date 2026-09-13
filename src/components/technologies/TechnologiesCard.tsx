@@ -47,7 +47,7 @@ const TechnologiesCard = ({
           {technology.category}
         </span>
 
-        <span className="px-2 py-1 rounded-md bg-gray-100 text-gray-600 shrink-0">
+        <span className="px-2 py-1 rounded-md bg-gray-100 text-gray-600 ">
           {technology.difficulty}
         </span>
 

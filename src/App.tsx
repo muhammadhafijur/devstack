@@ -17,12 +17,23 @@ const technologiesFetch = async (): Promise<Itechnology[]> => {
 function App() {
   const technologiesPromise = technologiesFetch();
 
-
   return (
     <>
       <Navbar />
       <Hero />
-      <Suspense fallback={<p>Loading...</p>}>
+
+      <Suspense
+        fallback={
+          <div className="flex items-center justify-center h-screen bg-[#f8fafc]">
+            <div className="flex items-end gap-1.5">
+              <span className="w-1.5 h-6 bg-[#0f172a] rounded-full animate-wave"></span>
+              <span className="w-1.5 h-6 bg-[#0f172a] rounded-full animate-wave [animation-delay:0.1s]"></span>
+              <span className="w-1.5 h-6 bg-[#0f172a] rounded-full animate-wave [animation-delay:0.2s]"></span>
+              <span className="w-1.5 h-6 bg-[#0f172a] rounded-full animate-wave [animation-delay:0.3s]"></span>
+            </div>
+          </div>
+        }
+      >
         <Technologies technologiesPromise={technologiesPromise}></Technologies>
       </Suspense>
       <Footer />
@@ -32,5 +43,3 @@ function App() {
 }
 
 export default App;
-
-

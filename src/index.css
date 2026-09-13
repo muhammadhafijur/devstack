@@ -7,6 +7,18 @@
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
   --color-bg: #0B0B0B;
   --color-primary: #FF7A00;
+  --animate-wave: wave 1s ease-in-out infinite;
+
+  @keyframes wave {
+    0%, 100% {
+      transform: scaleY(0.5);
+      opacity: 0.4;
+    }
+    50% {
+      transform: scaleY(1.2);
+      opacity: 1;
+    }
+  }
 }
 
 html{
